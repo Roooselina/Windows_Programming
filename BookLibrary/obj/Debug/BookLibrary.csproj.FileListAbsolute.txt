@@ -1,0 +1,12 @@
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\BookLibrary\obj\Debug\BookLibrary.csproj.AssemblyReference.cache
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\BookLibrary\obj\Debug\BookLibrary.Form1.resources
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\BookLibrary\obj\Debug\BookLibrary.Properties.Resources.resources
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\BookLibrary\obj\Debug\BookLibrary.csproj.GenerateResource.cache
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\BookLibrary\obj\Debug\BookLibrary.csproj.CoreCompileInputs.cache
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\BookLibrary\bin\Debug\BookLibrary.exe.config
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\BookLibrary\bin\Debug\BookLibrary.exe
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\BookLibrary\bin\Debug\BookLibrary.pdb
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\BookLibrary\obj\Debug\BookLibrary.exe
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\BookLibrary\obj\Debug\BookLibrary.pdb
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\BookLibrary\obj\Debug\BookLibrary.Form3.resources
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\BookLibrary\obj\Debug\BookLibrary.Form2.resources

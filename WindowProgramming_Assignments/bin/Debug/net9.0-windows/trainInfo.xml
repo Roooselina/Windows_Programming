@@ -1,0 +1,741 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trainInfo>
+  <!-- 역 정보 -->
+  <stations>
+    <station>
+      <code>SEL</code>
+      <name>서울</name>
+      <englishName>Seoul</englishName>
+      <region>수도권</region>
+      <facilities>대합실,화장실,편의점,음식점,Wi-Fi</facilities>
+    </station>
+    <station>
+      <code>BSN</code>
+      <name>부산</name>
+      <englishName>Busan</englishName>
+      <region>영남권</region>
+      <facilities>대합실,화장실,편의점,음식점,Wi-Fi</facilities>
+    </station>
+    <station>
+      <code>ICN</code>
+      <name>인천</name>
+      <englishName>Incheon</englishName>
+      <region>수도권</region>
+      <facilities>대합실,화장실,편의점,Wi-Fi</facilities>
+    </station>
+  </stations>
+  <!-- 노선 정보 -->
+  <routes>
+    <route>
+      <routeID>R001</routeID>
+      <departure>서울</departure>
+      <arrival>부산</arrival>
+      <distance>417</distance>
+      <estimatedTime>150</estimatedTime>
+      <type>고속선</type>
+      <status>운행중</status>
+    </route>
+    <route>
+      <routeID>R002</routeID>
+      <departure>서울</departure>
+      <arrival>인천</arrival>
+      <distance>38</distance>
+      <estimatedTime>60</estimatedTime>
+      <type>일반선</type>
+      <status>운행중</status>
+    </route>
+    <route>
+      <routeID>R003</routeID>
+      <departure>부산</departure>
+      <arrival>서울</arrival>
+      <distance>417</distance>
+      <estimatedTime>150</estimatedTime>
+      <type>고속선</type>
+      <status>운행중</status>
+    </route>
+    <route>
+      <routeID>R004</routeID>
+      <departure>부산</departure>
+      <arrival>인천</arrival>
+      <distance>455</distance>
+      <estimatedTime>180</estimatedTime>
+      <type>고속선</type>
+      <status>운행중</status>
+    </route>
+    <route>
+      <routeID>R005</routeID>
+      <departure>인천</departure>
+      <arrival>서울</arrival>
+      <distance>38</distance>
+      <estimatedTime>60</estimatedTime>
+      <type>일반선</type>
+      <status>운행중</status>
+    </route>
+    <route>
+      <routeID>R006</routeID>
+      <departure>인천</departure>
+      <arrival>부산</arrival>
+      <distance>455</distance>
+      <estimatedTime>180</estimatedTime>
+      <type>고속선</type>
+      <status>운행중</status>
+    </route>
+  </routes>
+  <!-- 열차 정보 -->
+  <trainTypes>
+    <trainType>
+      <code>KTX</code>
+      <name>KTX</name>
+      <description>한국고속철도</description>
+      <maxSpeed>300</maxSpeed>
+      <seatConfiguration>2+2</seatConfiguration>
+      <amenities>Wi-Fi,전원콘센트,카페</amenities>
+    </trainType>
+    <trainType>
+      <code>GEN</code>
+      <name>일반열차</name>
+      <description>일반철도</description>
+      <maxSpeed>150</maxSpeed>
+      <seatConfiguration>2+3</seatConfiguration>
+      <amenities>화장실,냉난방</amenities>
+    </trainType>
+  </trainTypes>
+  <!-- 열차 시간표 및 상세 정보 -->
+  <trains>
+    <!-- 서울 → 부산 KTX -->
+    <train>
+      <trainNumber>KTX-001</trainNumber>
+      <trainName>무궁화호</trainName>
+      <departure>서울</departure>
+      <arrival>부산</arrival>
+      <departureTime>06:00</departureTime>
+      <arrivalTime>08:30</arrivalTime>
+      <duration>150</duration>
+      <trainType>KTX</trainType>
+      <routeID>R001</routeID>
+      <operatingDays>매일</operatingDays>
+      <seats>
+        <totalSeats>400</totalSeats>
+        <standardSeats>320</standardSeats>
+        <specialSeats>80</specialSeats>
+        <seatMap>
+          <car number="1" seats="80" type="특실" />
+          <car number="2" seats="80" type="일반실" />
+          <car number="3" seats="80" type="일반실" />
+          <car number="4" seats="80" type="일반실" />
+          <car number="5" seats="80" type="일반실" />
+        </seatMap>
+      </seats>
+      <pricing>
+        <adultPrice>75000</adultPrice>
+        <childPrice>37500</childPrice>
+        <infantPrice>0</infantPrice>
+        <specialSeatSurcharge>20000</specialSeatSurcharge>
+      </pricing>
+      <stops>
+        <stop sequence="1" station="서울" arrivalTime="" departureTime="06:00" waitTime="0" />
+        <stop sequence="2" station="대전" arrivalTime="07:15" departureTime="07:17" waitTime="2" />
+        <stop sequence="3" station="부산" arrivalTime="08:30" departureTime="" waitTime="0" />
+      </stops>
+      <adultPrice>7500</adultPrice>
+      <childPrice>37500</childPrice>
+      <infantPrice>0</infantPrice>
+      <totalSeats>400</totalSeats>
+      <standardSeats>320</standardSeats>
+      <specialSeats>80</specialSeats>
+      <specialSeatSurcharge>20000</specialSeatSurcharge>
+    </train>
+    <train>
+      <trainNumber>KTX-003</trainNumber>
+      <trainName>새마을호</trainName>
+      <departure>서울</departure>
+      <arrival>부산</arrival>
+      <departureTime>09:00</departureTime>
+      <arrivalTime>11:30</arrivalTime>
+      <duration>150</duration>
+      <trainType>KTX</trainType>
+      <routeID>R001</routeID>
+      <operatingDays>매일</operatingDays>
+      <seats>
+        <totalSeats>400</totalSeats>
+        <standardSeats>320</standardSeats>
+        <specialSeats>80</specialSeats>
+        <seatMap>
+          <car number="1" seats="80" type="특실" />
+          <car number="2" seats="80" type="일반실" />
+          <car number="3" seats="80" type="일반실" />
+          <car number="4" seats="80" type="일반실" />
+          <car number="5" seats="80" type="일반실" />
+        </seatMap>
+      </seats>
+      <pricing>
+        <adultPrice>75000</adultPrice>
+        <childPrice>37500</childPrice>
+        <infantPrice>0</infantPrice>
+        <specialSeatSurcharge>20000</specialSeatSurcharge>
+      </pricing>
+      <stops>
+        <stop sequence="1" station="서울" arrivalTime="" departureTime="09:00" waitTime="0" />
+        <stop sequence="2" station="대전" arrivalTime="10:15" departureTime="10:17" waitTime="2" />
+        <stop sequence="3" station="부산" arrivalTime="11:30" departureTime="" waitTime="0" />
+      </stops>
+    </train>
+    <train>
+      <trainNumber>KTX-005</trainNumber>
+      <trainName>한국호</trainName>
+      <departure>서울</departure>
+      <arrival>부산</arrival>
+      <departureTime>12:00</departureTime>
+      <arrivalTime>14:30</arrivalTime>
+      <duration>150</duration>
+      <trainType>KTX</trainType>
+      <routeID>R001</routeID>
+      <operatingDays>매일</operatingDays>
+      <seats>
+        <totalSeats>400</totalSeats>
+        <standardSeats>320</standardSeats>
+        <specialSeats>80</specialSeats>
+        <seatMap>
+          <car number="1" seats="80" type="특실" />
+          <car number="2" seats="80" type="일반실" />
+          <car number="3" seats="80" type="일반실" />
+          <car number="4" seats="80" type="일반실" />
+          <car number="5" seats="80" type="일반실" />
+        </seatMap>
+      </seats>
+      <pricing>
+        <adultPrice>75000</adultPrice>
+        <childPrice>37500</childPrice>
+        <infantPrice>0</infantPrice>
+        <specialSeatSurcharge>20000</specialSeatSurcharge>
+      </pricing>
+      <stops>
+        <stop sequence="1" station="서울" arrivalTime="" departureTime="12:00" waitTime="0" />
+        <stop sequence="2" station="대전" arrivalTime="13:15" departureTime="13:17" waitTime="2" />
+        <stop sequence="3" station="부산" arrivalTime="14:30" departureTime="" waitTime="0" />
+      </stops>
+    </train>
+    <!-- 부산 → 서울 KTX -->
+    <train>
+      <trainNumber>KTX-002</trainNumber>
+      <trainName>산울림호</trainName>
+      <departure>부산</departure>
+      <arrival>서울</arrival>
+      <departureTime>07:00</departureTime>
+      <arrivalTime>09:30</arrivalTime>
+      <duration>150</duration>
+      <trainType>KTX</trainType>
+      <routeID>R003</routeID>
+      <operatingDays>매일</operatingDays>
+      <seats>
+        <totalSeats>400</totalSeats>
+        <standardSeats>320</standardSeats>
+        <specialSeats>80</specialSeats>
+        <seatMap>
+          <car number="1" seats="80" type="특실" />
+          <car number="2" seats="80" type="일반실" />
+          <car number="3" seats="80" type="일반실" />
+          <car number="4" seats="80" type="일반실" />
+          <car number="5" seats="80" type="일반실" />
+        </seatMap>
+      </seats>
+      <pricing>
+        <adultPrice>75000</adultPrice>
+        <childPrice>37500</childPrice>
+        <infantPrice>0</infantPrice>
+        <specialSeatSurcharge>20000</specialSeatSurcharge>
+      </pricing>
+      <stops>
+        <stop sequence="1" station="부산" arrivalTime="" departureTime="07:00" waitTime="0" />
+        <stop sequence="2" station="대전" arrivalTime="08:15" departureTime="08:17" waitTime="2" />
+        <stop sequence="3" station="서울" arrivalTime="09:30" departureTime="" waitTime="0" />
+      </stops>
+    </train>
+    <train>
+      <trainNumber>KTX-004</trainNumber>
+      <trainName>해돋이호</trainName>
+      <departure>부산</departure>
+      <arrival>서울</arrival>
+      <departureTime>14:30</departureTime>
+      <arrivalTime>17:00</arrivalTime>
+      <duration>150</duration>
+      <trainType>KTX</trainType>
+      <routeID>R003</routeID>
+      <operatingDays>매일</operatingDays>
+      <seats>
+        <totalSeats>400</totalSeats>
+        <standardSeats>320</standardSeats>
+        <specialSeats>80</specialSeats>
+        <seatMap>
+          <car number="1" seats="80" type="특실" />
+          <car number="2" seats="80" type="일반실" />
+          <car number="3" seats="80" type="일반실" />
+          <car number="4" seats="80" type="일반실" />
+          <car number="5" seats="80" type="일반실" />
+        </seatMap>
+      </seats>
+      <pricing>
+        <adultPrice>75000</adultPrice>
+        <childPrice>37500</childPrice>
+        <infantPrice>0</infantPrice>
+        <specialSeatSurcharge>20000</specialSeatSurcharge>
+      </pricing>
+      <stops>
+        <stop sequence="1" station="부산" arrivalTime="" departureTime="14:30" waitTime="0" />
+        <stop sequence="2" station="대전" arrivalTime="15:45" departureTime="15:47" waitTime="2" />
+        <stop sequence="3" station="서울" arrivalTime="17:00" departureTime="" waitTime="0" />
+      </stops>
+    </train>
+    <!-- 서울 → 인천 일반열차 -->
+    <train>
+      <trainNumber>GEN-101</trainNumber>
+      <trainName>인천선1호</trainName>
+      <departure>서울</departure>
+      <arrival>인천</arrival>
+      <departureTime>06:30</departureTime>
+      <arrivalTime>07:30</arrivalTime>
+      <duration>60</duration>
+      <trainType>일반열차</trainType>
+      <routeID>R002</routeID>
+      <operatingDays>매일</operatingDays>
+      <seats>
+        <totalSeats>200</totalSeats>
+        <standardSeats>200</standardSeats>
+        <specialSeats>0</specialSeats>
+        <seatMap>
+          <car number="1" seats="50" type="일반실" />
+          <car number="2" seats="50" type="일반실" />
+          <car number="3" seats="50" type="일반실" />
+          <car number="4" seats="50" type="일반실" />
+        </seatMap>
+      </seats>
+      <pricing>
+        <adultPrice>15000</adultPrice>
+        <childPrice>7500</childPrice>
+        <infantPrice>0</infantPrice>
+        <specialSeatSurcharge>0</specialSeatSurcharge>
+      </pricing>
+      <stops>
+        <stop sequence="1" station="서울" arrivalTime="" departureTime="06:30" waitTime="0" />
+        <stop sequence="2" station="인천" arrivalTime="07:30" departureTime="" waitTime="0" />
+      </stops>
+    </train>
+    <train>
+      <trainNumber>GEN-103</trainNumber>
+      <trainName>인천선3호</trainName>
+      <departure>서울</departure>
+      <arrival>인천</arrival>
+      <departureTime>10:00</departureTime>
+      <arrivalTime>11:00</arrivalTime>
+      <duration>60</duration>
+      <trainType>일반열차</trainType>
+      <routeID>R002</routeID>
+      <operatingDays>매일</operatingDays>
+      <seats>
+        <totalSeats>200</totalSeats>
+        <standardSeats>200</standardSeats>
+        <specialSeats>0</specialSeats>
+        <seatMap>
+          <car number="1" seats="50" type="일반실" />
+          <car number="2" seats="50" type="일반실" />
+          <car number="3" seats="50" type="일반실" />
+          <car number="4" seats="50" type="일반실" />
+        </seatMap>
+      </seats>
+      <pricing>
+        <adultPrice>15000</adultPrice>
+        <childPrice>7500</childPrice>
+        <infantPrice>0</infantPrice>
+        <specialSeatSurcharge>0</specialSeatSurcharge>
+      </pricing>
+      <stops>
+        <stop sequence="1" station="서울" arrivalTime="" departureTime="10:00" waitTime="0" />
+        <stop sequence="2" station="인천" arrivalTime="11:00" departureTime="" waitTime="0" />
+      </stops>
+    </train>
+    <!-- 인천 → 서울 일반열차 -->
+    <train>
+      <trainNumber>GEN-102</trainNumber>
+      <trainName>인천선2호</trainName>
+      <departure>인천</departure>
+      <arrival>서울</arrival>
+      <departureTime>08:00</departureTime>
+      <arrivalTime>09:00</arrivalTime>
+      <duration>60</duration>
+      <trainType>일반열차</trainType>
+      <routeID>R005</routeID>
+      <operatingDays>매일</operatingDays>
+      <seats>
+        <totalSeats>200</totalSeats>
+        <standardSeats>200</standardSeats>
+        <specialSeats>0</specialSeats>
+        <seatMap>
+          <car number="1" seats="50" type="일반실" />
+          <car number="2" seats="50" type="일반실" />
+          <car number="3" seats="50" type="일반실" />
+          <car number="4" seats="50" type="일반실" />
+        </seatMap>
+      </seats>
+      <pricing>
+        <adultPrice>15000</adultPrice>
+        <childPrice>7500</childPrice>
+        <infantPrice>0</infantPrice>
+        <specialSeatSurcharge>0</specialSeatSurcharge>
+      </pricing>
+      <stops>
+        <stop sequence="1" station="인천" arrivalTime="" departureTime="08:00" waitTime="0" />
+        <stop sequence="2" station="서울" arrivalTime="09:00" departureTime="" waitTime="0" />
+      </stops>
+    </train>
+    <train>
+      <trainNumber>GEN-104</trainNumber>
+      <trainName>인천선4호</trainName>
+      <departure>인천</departure>
+      <arrival>서울</arrival>
+      <departureTime>16:00</departureTime>
+      <arrivalTime>17:00</arrivalTime>
+      <duration>60</duration>
+      <trainType>일반열차</trainType>
+      <routeID>R005</routeID>
+      <operatingDays>매일</operatingDays>
+      <seats>
+        <totalSeats>200</totalSeats>
+        <standardSeats>200</standardSeats>
+        <specialSeats>0</specialSeats>
+        <seatMap>
+          <car number="1" seats="50" type="일반실" />
+          <car number="2" seats="50" type="일반실" />
+          <car number="3" seats="50" type="일반실" />
+          <car number="4" seats="50" type="일반실" />
+        </seatMap>
+      </seats>
+      <pricing>
+        <adultPrice>15000</adultPrice>
+        <childPrice>7500</childPrice>
+        <infantPrice>0</infantPrice>
+        <specialSeatSurcharge>0</specialSeatSurcharge>
+      </pricing>
+      <stops>
+        <stop sequence="1" station="인천" arrivalTime="" departureTime="16:00" waitTime="0" />
+        <stop sequence="2" station="서울" arrivalTime="17:00" departureTime="" waitTime="0" />
+      </stops>
+    </train>
+    <!-- 인천 → 부산 KTX -->
+    <train>
+      <trainNumber>KTX-201</trainNumber>
+      <trainName>서해바다호</trainName>
+      <departure>인천</departure>
+      <arrival>부산</arrival>
+      <departureTime>08:00</departureTime>
+      <arrivalTime>11:00</arrivalTime>
+      <duration>180</duration>
+      <trainType>KTX</trainType>
+      <routeID>R006</routeID>
+      <operatingDays>매일</operatingDays>
+      <seats>
+        <totalSeats>400</totalSeats>
+        <standardSeats>320</standardSeats>
+        <specialSeats>80</specialSeats>
+        <seatMap>
+          <car number="1" seats="80" type="특실" />
+          <car number="2" seats="80" type="일반실" />
+          <car number="3" seats="80" type="일반실" />
+          <car number="4" seats="80" type="일반실" />
+          <car number="5" seats="80" type="일반실" />
+        </seatMap>
+      </seats>
+      <pricing>
+        <adultPrice>85000</adultPrice>
+        <childPrice>42500</childPrice>
+        <infantPrice>0</infantPrice>
+        <specialSeatSurcharge>20000</specialSeatSurcharge>
+      </pricing>
+      <stops>
+        <stop sequence="1" station="인천" arrivalTime="" departureTime="08:00" waitTime="0" />
+        <stop sequence="2" station="서울" arrivalTime="09:00" departureTime="09:02" waitTime="2" />
+        <stop sequence="3" station="대전" arrivalTime="10:15" departureTime="10:17" waitTime="2" />
+        <stop sequence="4" station="부산" arrivalTime="11:00" departureTime="" waitTime="0" />
+      </stops>
+    </train>
+    <!-- 부산 → 인천 KTX -->
+    <train>
+      <trainNumber>KTX-202</trainNumber>
+      <trainName>동해바다호</trainName>
+      <departure>부산</departure>
+      <arrival>인천</arrival>
+      <departureTime>15:00</departureTime>
+      <arrivalTime>18:00</arrivalTime>
+      <duration>180</duration>
+      <trainType>KTX</trainType>
+      <routeID>R004</routeID>
+      <operatingDays>매일</operatingDays>
+      <seats>
+        <totalSeats>400</totalSeats>
+        <standardSeats>320</standardSeats>
+        <specialSeats>80</specialSeats>
+        <seatMap>
+          <car number="1" seats="80" type="특실" />
+          <car number="2" seats="80" type="일반실" />
+          <car number="3" seats="80" type="일반실" />
+          <car number="4" seats="80" type="일반실" />
+          <car number="5" seats="80" type="일반실" />
+        </seatMap>
+      </seats>
+      <pricing>
+        <adultPrice>85000</adultPrice>
+        <childPrice>42500</childPrice>
+        <infantPrice>0</infantPrice>
+        <specialSeatSurcharge>20000</specialSeatSurcharge>
+      </pricing>
+      <stops>
+        <stop sequence="1" station="부산" arrivalTime="" departureTime="15:00" waitTime="0" />
+        <stop sequence="2" station="대전" arrivalTime="16:15" departureTime="16:17" waitTime="2" />
+        <stop sequence="3" station="서울" arrivalTime="17:30" departureTime="17:32" waitTime="2" />
+        <stop sequence="4" station="인천" arrivalTime="18:00" departureTime="" waitTime="0" />
+      </stops>
+      <adultPrice>8500</adultPrice>
+      <childPrice>42500</childPrice>
+      <infantPrice>0</infantPrice>
+      <totalSeats>400</totalSeats>
+      <standardSeats>320</standardSeats>
+      <specialSeats>80</specialSeats>
+      <specialSeatSurcharge>20000</specialSeatSurcharge>
+    </train>
+  </trains>
+  <!-- 좌석 현황 (날짜별 예약 현황) -->
+  <seatAvailability>
+    <date value="2025-06-19">
+      <train trainNumber="KTX-001" availableSeats="285" reservedSeats="115" />
+      <train trainNumber="KTX-003" availableSeats="318" reservedSeats="82" />
+      <train trainNumber="KTX-005" availableSeats="400" reservedSeats="0" />
+      <train trainNumber="KTX-002" availableSeats="396" reservedSeats="0" />
+      <train trainNumber="KTX-004" availableSeats="399" reservedSeats="1" />
+      <train trainNumber="GEN-101" availableSeats="180" reservedSeats="20" />
+      <train trainNumber="GEN-102" availableSeats="200" reservedSeats="0" />
+      <train trainNumber="GEN-103" availableSeats="199" reservedSeats="1" />
+      <train trainNumber="GEN-104" availableSeats="200" reservedSeats="0" />
+      <train trainNumber="KTX-201" availableSeats="400" reservedSeats="0" />
+      <train trainNumber="KTX-202" availableSeats="400" reservedSeats="0" />
+      <train trainNumber="ㅁ" availableSeats="400" reservedSeats="0" />
+    </date>
+    <date value="2025-06-20">
+      <train trainNumber="KTX-001" availableSeats="399" reservedSeats="0" />
+      <train trainNumber="KTX-003" availableSeats="400" reservedSeats="0" />
+      <train trainNumber="KTX-005" availableSeats="390" reservedSeats="0" />
+      <train trainNumber="KTX-002" availableSeats="385" reservedSeats="0" />
+      <train trainNumber="KTX-004" availableSeats="397" reservedSeats="1" />
+      <train trainNumber="GEN-101" availableSeats="200" reservedSeats="0" />
+      <train trainNumber="GEN-102" availableSeats="189" reservedSeats="0" />
+      <train trainNumber="GEN-103" availableSeats="200" reservedSeats="0" />
+      <train trainNumber="GEN-104" availableSeats="200" reservedSeats="0" />
+      <train trainNumber="KTX-201" availableSeats="393" reservedSeats="0" />
+      <train trainNumber="KTX-202" availableSeats="397" reservedSeats="0" />
+      <train trainNumber="ㅁ" availableSeats="400" reservedSeats="0" />
+    </date>
+    <date value="2025-06-25">
+      <train trainNumber="KTX-001" availableSeats="400" reservedSeats="0" />
+      <train trainNumber="KTX-003" availableSeats="400" reservedSeats="0" />
+      <train trainNumber="KTX-005" availableSeats="400" reservedSeats="0" />
+      <train trainNumber="KTX-002" availableSeats="400" reservedSeats="0" />
+      <train trainNumber="KTX-004" availableSeats="400" reservedSeats="0" />
+      <train trainNumber="GEN-101" availableSeats="200" reservedSeats="0" />
+      <train trainNumber="GEN-102" availableSeats="200" reservedSeats="0" />
+      <train trainNumber="GEN-103" availableSeats="200" reservedSeats="0" />
+      <train trainNumber="GEN-104" availableSeats="200" reservedSeats="0" />
+      <train trainNumber="KTX-201" availableSeats="399" reservedSeats="1" />
+      <train trainNumber="KTX-202" availableSeats="399" reservedSeats="1" />
+      <train trainNumber="ㅁ" availableSeats="400" reservedSeats="0" />
+    </date>
+  </seatAvailability>
+  <!-- 노선 정보 -->
+  <routes>
+    <route>
+      <departure>서울</departure>
+      <arrival>부산</arrival>
+      <distance>417</distance>
+      <type>KTX</type>
+    </route>
+    <route>
+      <departure>서울</departure>
+      <arrival>인천</arrival>
+      <distance>38</distance>
+      <type>일반열차</type>
+    </route>
+    <route>
+      <departure>부산</departure>
+      <arrival>서울</arrival>
+      <distance>417</distance>
+      <type>KTX</type>
+    </route>
+    <route>
+      <departure>부산</departure>
+      <arrival>인천</arrival>
+      <distance>455</distance>
+      <type>KTX</type>
+    </route>
+    <route>
+      <departure>인천</departure>
+      <arrival>서울</arrival>
+      <distance>38</distance>
+      <type>일반열차</type>
+    </route>
+    <route>
+      <departure>인천</departure>
+      <arrival>부산</arrival>
+      <distance>455</distance>
+      <type>KTX</type>
+    </route>
+  </routes>
+  <!-- 열차 시간표 -->
+  <trains>
+    <!-- 서울 → 부산 -->
+    <train>
+      <trainNumber>KTX-001</trainNumber>
+      <departure>서울</departure>
+      <arrival>부산</arrival>
+      <departureTime>06:00</departureTime>
+      <arrivalTime>08:30</arrivalTime>
+      <duration>150</duration>
+      <trainType>KTX</trainType>
+      <totalSeats>400</totalSeats>
+      <adultPrice>75000</adultPrice>
+      <childPrice>37500</childPrice>
+      <infantPrice>0</infantPrice>
+    </train>
+    <train>
+      <trainNumber>KTX-003</trainNumber>
+      <departure>서울</departure>
+      <arrival>부산</arrival>
+      <departureTime>09:00</departureTime>
+      <arrivalTime>11:30</arrivalTime>
+      <duration>150</duration>
+      <trainType>KTX</trainType>
+      <totalSeats>400</totalSeats>
+      <adultPrice>75000</adultPrice>
+      <childPrice>37500</childPrice>
+      <infantPrice>0</infantPrice>
+    </train>
+    <train>
+      <trainNumber>KTX-005</trainNumber>
+      <departure>서울</departure>
+      <arrival>부산</arrival>
+      <departureTime>12:00</departureTime>
+      <arrivalTime>14:30</arrivalTime>
+      <duration>150</duration>
+      <trainType>KTX</trainType>
+      <totalSeats>400</totalSeats>
+      <adultPrice>75000</adultPrice>
+      <childPrice>37500</childPrice>
+      <infantPrice>0</infantPrice>
+    </train>
+    <!-- 부산 → 서울 -->
+    <train>
+      <trainNumber>KTX-002</trainNumber>
+      <departure>부산</departure>
+      <arrival>서울</arrival>
+      <departureTime>07:00</departureTime>
+      <arrivalTime>09:30</arrivalTime>
+      <duration>150</duration>
+      <trainType>KTX</trainType>
+      <totalSeats>400</totalSeats>
+      <adultPrice>75000</adultPrice>
+      <childPrice>37500</childPrice>
+      <infantPrice>0</infantPrice>
+    </train>
+    <train>
+      <trainNumber>KTX-004</trainNumber>
+      <departure>부산</departure>
+      <arrival>서울</arrival>
+      <departureTime>14:30</departureTime>
+      <arrivalTime>17:00</arrivalTime>
+      <duration>150</duration>
+      <trainType>KTX</trainType>
+      <totalSeats>400</totalSeats>
+      <adultPrice>75000</adultPrice>
+      <childPrice>37500</childPrice>
+      <infantPrice>0</infantPrice>
+    </train>
+    <!-- 서울 → 인천 -->
+    <train>
+      <trainNumber>GEN-101</trainNumber>
+      <departure>서울</departure>
+      <arrival>인천</arrival>
+      <departureTime>06:30</departureTime>
+      <arrivalTime>07:30</arrivalTime>
+      <duration>60</duration>
+      <trainType>일반열차</trainType>
+      <totalSeats>200</totalSeats>
+      <adultPrice>15000</adultPrice>
+      <childPrice>7500</childPrice>
+      <infantPrice>0</infantPrice>
+    </train>
+    <train>
+      <trainNumber>GEN-103</trainNumber>
+      <departure>서울</departure>
+      <arrival>인천</arrival>
+      <departureTime>10:00</departureTime>
+      <arrivalTime>11:00</arrivalTime>
+      <duration>60</duration>
+      <trainType>일반열차</trainType>
+      <totalSeats>200</totalSeats>
+      <adultPrice>15000</adultPrice>
+      <childPrice>7500</childPrice>
+      <infantPrice>0</infantPrice>
+    </train>
+    <!-- 인천 → 서울 -->
+    <train>
+      <trainNumber>GEN-102</trainNumber>
+      <departure>인천</departure>
+      <arrival>서울</arrival>
+      <departureTime>08:00</departureTime>
+      <arrivalTime>09:00</arrivalTime>
+      <duration>60</duration>
+      <trainType>일반열차</trainType>
+      <totalSeats>200</totalSeats>
+      <adultPrice>15000</adultPrice>
+      <childPrice>7500</childPrice>
+      <infantPrice>0</infantPrice>
+    </train>
+    <train>
+      <trainNumber>GEN-104</trainNumber>
+      <departure>인천</departure>
+      <arrival>서울</arrival>
+      <departureTime>16:00</departureTime>
+      <arrivalTime>17:00</arrivalTime>
+      <duration>60</duration>
+      <trainType>일반열차</trainType>
+      <totalSeats>200</totalSeats>
+      <adultPrice>15000</adultPrice>
+      <childPrice>7500</childPrice>
+      <infantPrice>0</infantPrice>
+    </train>
+    <!-- 인천 → 부산 -->
+    <train>
+      <trainNumber>KTX-201</trainNumber>
+      <departure>인천</departure>
+      <arrival>부산</arrival>
+      <departureTime>08:00</departureTime>
+      <arrivalTime>11:00</arrivalTime>
+      <duration>180</duration>
+      <trainType>KTX</trainType>
+      <totalSeats>400</totalSeats>
+      <adultPrice>85000</adultPrice>
+      <childPrice>42500</childPrice>
+      <infantPrice>0</infantPrice>
+    </train>
+    <!-- 부산 → 인천 -->
+    <train>
+      <trainNumber>KTX-202</trainNumber>
+      <departure>부산</departure>
+      <arrival>인천</arrival>
+      <departureTime>15:00</departureTime>
+      <arrivalTime>18:00</arrivalTime>
+      <duration>180</duration>
+      <trainType>KTX</trainType>
+      <totalSeats>400</totalSeats>
+      <adultPrice>85000</adultPrice>
+      <childPrice>42500</childPrice>
+      <infantPrice>0</infantPrice>
+    </train>
+  </trains>
+</trainInfo>

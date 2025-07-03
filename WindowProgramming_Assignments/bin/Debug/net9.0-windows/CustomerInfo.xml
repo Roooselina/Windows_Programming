@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customers>
+  <user>
+    <name>이은정</name>
+    <email>asdf@example.com</email>
+    <phoneNum>123-456-789</phoneNum>
+    <ID>123</ID>
+    <Pass>123</Pass>
+  </user>
+  <user>
+    <name>김철수</name>
+    <email>kim@example.com</email>
+    <phoneNum>987-654-321</phoneNum>
+    <ID>admin</ID>
+    <Pass>admin</Pass>
+  </user>
+  <user>
+    <name>박영희</name>
+    <email>park@example.com</email>
+    <phoneNum>555-123-456</phoneNum>
+    <ID>user01</ID>
+    <Pass>password</Pass>
+  </user>
+  <user>
+    <name>이은정</name>
+    <email>a@gmail.com</email>
+    <phoneNum>010-1234-4567</phoneNum>
+    <ID>12345</ID>
+    <Pass>123456</Pass>
+  </user>
+</customers>

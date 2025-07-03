@@ -1,0 +1,10 @@
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\6주차_폼실습\bin\Debug\6주차_폼실습.exe.config
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\6주차_폼실습\bin\Debug\6주차_폼실습.exe
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\6주차_폼실습\bin\Debug\6주차_폼실습.pdb
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\6주차_폼실습\obj\Debug\6주차_폼실습.csproj.AssemblyReference.cache
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\6주차_폼실습\obj\Debug\_6주차_폼실습.Form1.resources
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\6주차_폼실습\obj\Debug\_6주차_폼실습.Properties.Resources.resources
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\6주차_폼실습\obj\Debug\6주차_폼실습.csproj.GenerateResource.cache
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\6주차_폼실습\obj\Debug\6주차_폼실습.csproj.CoreCompileInputs.cache
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\6주차_폼실습\obj\Debug\6주차_폼실습.exe
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\6주차_폼실습\obj\Debug\6주차_폼실습.pdb

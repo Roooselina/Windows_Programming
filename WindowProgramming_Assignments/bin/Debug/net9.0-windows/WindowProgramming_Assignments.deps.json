@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "WindowProgramming_Assignments/1.0.0": {
+        "runtime": {
+          "WindowProgramming_Assignments.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WindowProgramming_Assignments/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

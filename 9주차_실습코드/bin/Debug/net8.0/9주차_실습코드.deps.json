@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "9주차_실습코드/1.0.0": {
+        "runtime": {
+          "9주차_실습코드.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "9주차_실습코드/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\9주차_실습코드\bin\Debug\net8.0\9주차_실습코드.exe
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\9주차_실습코드\bin\Debug\net8.0\9주차_실습코드.deps.json
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\9주차_실습코드\bin\Debug\net8.0\9주차_실습코드.runtimeconfig.json
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\9주차_실습코드\bin\Debug\net8.0\9주차_실습코드.dll
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\9주차_실습코드\bin\Debug\net8.0\9주차_실습코드.pdb
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\9주차_실습코드\obj\Debug\net8.0\9주차_실습코드.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\9주차_실습코드\obj\Debug\net8.0\9주차_실습코드.AssemblyInfoInputs.cache
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\9주차_실습코드\obj\Debug\net8.0\9주차_실습코드.AssemblyInfo.cs
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\9주차_실습코드\obj\Debug\net8.0\9주차_실습코드.csproj.CoreCompileInputs.cache
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\9주차_실습코드\obj\Debug\net8.0\9주차_실습코드.dll
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\9주차_실습코드\obj\Debug\net8.0\refint\9주차_실습코드.dll
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\9주차_실습코드\obj\Debug\net8.0\9주차_실습코드.pdb
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\9주차_실습코드\obj\Debug\net8.0\9주차_실습코드.genruntimeconfig.cache
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\9주차_실습코드\obj\Debug\net8.0\ref\9주차_실습코드.dll

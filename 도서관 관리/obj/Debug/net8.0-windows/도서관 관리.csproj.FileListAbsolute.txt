@@ -1,0 +1,6 @@
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\도서관 관리\obj\Debug\net8.0-windows\도서관_관리.Form1.resources
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\도서관 관리\obj\Debug\net8.0-windows\도서관 관리.csproj.GenerateResource.cache
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\도서관 관리\obj\Debug\net8.0-windows\도서관 관리.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\도서관 관리\obj\Debug\net8.0-windows\도서관 관리.AssemblyInfoInputs.cache
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\도서관 관리\obj\Debug\net8.0-windows\도서관 관리.AssemblyInfo.cs
+C:\Users\kuroc\source\repos\윈도우즈 프로그래밍\도서관 관리\obj\Debug\net8.0-windows\도서관 관리.csproj.CoreCompileInputs.cache
